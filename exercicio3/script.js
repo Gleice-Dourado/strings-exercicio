@@ -12,6 +12,5 @@ console.log(novaFrase.includes("laranja"))
 
 
 //**EXTRA:** tente fazer o “mas não deixe o gato sair” ficar em maiúsculo, assim como o “BOAS VINDAS”
-const novaFrase1 = novaFrase.replace("mas não deixe o gato sair", "MAS NÃO DEIXE O GATO SAIR")
-
+const novaFrase1 = novaFrase.replace("mas não deixe o gato sair", "mas não deixe o gato sair".toUpperCase())
 console.log(novaFrase1)
